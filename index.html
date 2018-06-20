@@ -10,7 +10,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Lora|Cinzel+Decorative|Dancing+Script" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -29,28 +29,25 @@
             </div>
             <div class="collapse navbar-collapse navbar-right mainmenu" id="mainmenu">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About me</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
+                    <dt>
+                        <a id="liContactMe">Contact</a>
+                    </dt>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="container-fluid navyblue-photo">
         <div class="row">
-            <p class="text-center">Tracy Chevalier, by Nina Sobin</p>
+            <p class="text-right photographer">Tracy Chevalier, by Nina Sobin</p>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <h2>Tracy Chevalier</h2>
+            <h2 class="tracy">Tracy Chevalier</h2>
             <div class="container-fluid pearl">
                 <div class="row">
                     <div class="col-xs-12 col-sm-8 col-sm-offset-2 caption2">
-                        <!-- <h1 class="float-md-left">Author of famous "Girl with a Pearl Earring"</h1> -->
+                        <!-- <p class="float-md-left">Author of famous "Girl with a Pearl Earring"</p> -->
                         <p class="text-center">On her website we can read that she was born in October 1962 and grew up in Washington, DC, moving
                             to England after graduating with a BA in English from Oberlin College (Ohio). For several years
                             she worked as a reference book editor, while writing short stories in my spare time. In 1993
@@ -64,41 +61,59 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-8 col-sm-offset-2 caption">
-                        <h1 class="float-md-left">TRIBUTE PAGE</h1>
-                        <h3>
-                            <strong>Tarcy Chevalier</strong> is the author of following novels:
-                        </h3>
-                        <ul>
-                            <li>The Virgin Blue
-                                <strong>(1997)</strong>
-                            </li>
-                            <li>Girl With a Pearl Earring
-                                <strong>(1999)</strong>
-                            </li>
-                            <li>Falling Angels
-                                <strong>(2001)</strong>
-                            </li>
-                            <li>The Lady and the Unicorn
-                                <strong>(2003)</strong>
-                            </li>
-                            <li>Burning Bright
-                                <strong>(2007)</strong>
-                            </li>
-                            <li>Remarkable Creatures
-                                <strong>(2009)</strong>
-                            </li>
-                            <li>The Last Runaway
-                                <strong>(2013)</strong>
-                            </li>
-                            <li>Reader, I Married Him
-                                <strong>(2016)</strong>
-                            </li>
-                            <li>At the Edge of the Orchard
-                                <strong>(2016)</strong>
-                            </li>
-                            <li>New Boy
-                                <strong>(2017)</strong>
-                            </li>
+                        <h1 class="float-md-left">
+                            <strong>Tarcy Chevalier</strong> is the author of following novels:</h1>
+                        <dl class="books">
+                            <dt>The Virgin Blue
+                                <dd>
+                                    <strong>(1997)</strong>
+                                </dd>
+                            </dt>
+                            <dt>Girl With a Pearl Earring
+                                <dd>
+                                    <strong>(1999)</strong>
+                                </dd>
+                            </dt>
+                            <dt>Falling Angels
+                                <dd>
+                                    <strong>(2001)</strong>
+                                </dd>
+                            </dt>
+                            <dt>The Lady and the Unicorn
+                                <dd>
+                                    <strong>(2003)</strong>
+                                </dd>
+                            </dt>
+                            <dt>Burning Bright
+                                <dd>
+                                    <strong>(2007)</strong>
+                                </dd>
+                            </dt>
+                            <dt>Remarkable Creatures
+                                <dd>
+                                    <strong>(2009)</strong>
+                                </dd>
+                            </dt>
+                            <dt>The Last Runaway
+                                <dd>
+                                    <strong>(2013)</strong>
+                                </dd>
+                            </dt>
+                            <dt>Reader, I Married Him
+                                <dd>
+                                    <strong>(2016)</strong>
+                                </dd>
+                            </dt>
+                            <dt>At the Edge of the Orchard
+                                <dd>
+                                    <strong>(2016)</strong>
+                                </dd>
+                            </dt>
+                            <dt>New Boy
+                                <dd>
+                                    <strong>(2017)</strong>
+                                </dd>
+                            </dt>
                     </div>
                 </div>
             </div>
@@ -124,12 +139,12 @@
             </div>
         </div>
     </div>
-    <section>
+    <section id="contact_me" class="socialMediaBackground">
         <div class="container-fluid">
             <div class="row">
                 <main class="flex-center">
                     <div class="col-md-12 py-5 ">
-                        <div class="mb-6 flex-center">
+                        <div class="mb-6 flex-center text-center inline-block-center">
                             <a class="fb-ic icon" href="https://www.facebook.com/marta.mizgier" alt="facebook">
                                 <i class="fa-cog fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x" aria-hidden="true"> </i>
                             </a>
@@ -141,6 +156,7 @@
                             <a class="ins-ic icon" href="https://www.instagram.com/atram_reigzi/?hl=pl" alt="instagram">
                                 <i class="fa-cog fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x" aria-hidden="true"> </i>
                             </a>
+
                             <a class="icon" href="mailto:mizgier.m@gmail.com" alt="my address mail">
                                 <i class="fa-cog fa fa-envelope fa-lg white-text mr-md-5 mr-3 fa-2x" aria-hidden="true"></i>
                             </a>
@@ -159,6 +175,15 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#liContactMe").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#contact_me").offset().top
+                }, 1000);
+            });
+        });
+    </script>
 </body>
 
 </html>

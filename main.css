@@ -15,7 +15,7 @@
 .pearl {
   background: url("./images/girlWithPearljpg.jpg") center left no-repeat;
   background-size: contain;
-  height: 1000px;
+  height: 750px;
   width: 900px;
 }
 
@@ -24,19 +24,27 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.tracy{
+  font-size: 30px;
+  font-family:'Lora', 'Arial Black', serif;
+    
+}
+
 .navyblue-photo {
   background: url("./images/Tracy_Chevalier_by_Nina_Subin_low_res.jpg") center center no-repeat;
   background-size: cover;
   height: 600px;
-  padding:100px;
+  /* padding:100px; */
 }
 
 .caption{
   background: rgb(255, 255, 255, 0.7);
   color: #000;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 10px;
   padding: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
 
 }
 
@@ -47,9 +55,19 @@
   padding: 30px;
   margin-left: 200px;
   left: 200px;
-  top:400px;
+  top:300px;
   max-width: 470px;
 
+}
+
+.photographer{
+  margin-top: 580px;
+  /* padding: 30px; */
+  margin-left: 980px;
+  /* left: 200px;
+  top:300px; */
+  font-family: 'Courier New', Courier, monospace;
+  color:whitesmoke;
 }
 
 .roundedImage {
@@ -66,6 +84,40 @@
 
 .blockquote {
   border: none;
+}
+
+.books {
+  counter-reset: section;
+  font-family:'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 60px;
+  
+}
+
+.books dt {
+position: relative;
+font: bold 16px Georgia;
+padding: 4px 0 10px 0;
+margin-right: 25px;
+}
+
+.books dt:before {
+content: counter(section);
+counter-increment: section; 
+position: absolute;
+left: -25px;
+top: 0;
+font: bold 50px/1 Sans-Serif;
+
+}
+
+.books dd {
+margin: 0 0 50px 0;
+}	
+
+.books dt, .books dd {
+padding-left: 50px;
 }
 
 /* #footer {
@@ -105,7 +157,22 @@
   width: 45px;
 }
 
+.socialMediaBackground{
+  height: 100px;
+  background-color: darkred;
+  padding-top: 30px;
+}
+
 .icon{
-    font-size: 45px;
-    text-align: center;
+    font-size: 20px; 
+    
+}
+
+.footer-copyright{
+    color: lightgrey;
+    font-size: 15px;
+    position: horizontal;
+    padding: rgb(240, 240, 204);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
