@@ -8,10 +8,6 @@
   padding-top:18px;
 }
 
-/* body {
-  margin-top: 60px;
-} */
-
 .pearl {
   background: url("./images/girlWithPearljpg.jpg") center left no-repeat;
   background-size: contain;
@@ -34,7 +30,6 @@
   background: url("./images/Tracy_Chevalier_by_Nina_Subin_low_res.jpg") center center no-repeat;
   background-size: cover;
   height: 600px;
-  /* padding:100px; */
 }
 
 .caption{
@@ -45,7 +40,6 @@
   padding: 30px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 10px;
-
 }
 
 .caption2{
@@ -62,10 +56,7 @@
 
 .photographer{
   margin-top: 580px;
-  /* padding: 30px; */
   margin-left: 980px;
-  /* left: 200px;
-  top:300px; */
   font-family: 'Courier New', Courier, monospace;
   color:whitesmoke;
 }
@@ -96,53 +87,30 @@
 }
 
 .books dt {
-position: relative;
-font: bold 16px Georgia;
-padding: 4px 0 10px 0;
-margin-right: 25px;
+  position: relative;
+  font: bold 16px Georgia;
+  padding: 4px 0 10px 0;
+  margin-right: 25px;
 }
 
 .books dt:before {
-content: counter(section);
-counter-increment: section; 
-position: absolute;
-left: -25px;
-top: 0;
-font: bold 50px/1 Sans-Serif;
-
+  content: counter(section);
+  counter-increment: section; 
+  position: absolute;
+  left: -25px;
+  top: 0;
+  font: bold 50px/1 Sans-Serif;
 }
 
 .books dd {
-margin: 0 0 50px 0;
+  margin: 0 0 50px 0;
 }	
 
 .books dt, .books dd {
-padding-left: 50px;
+  padding-left: 50px;
 }
-
-/* #footer {
-  background: rgb(30, 30, 30);
-  color: lightgrey;
-}
-
-.card {
-  padding: 50px;
-  font-weight: lighter;
-}
-
-#footer a {
-  color: lightgrey;
-  font-size: 15px;
-  position: horizontal;
-  padding: rgb(240, 240, 204);
-}
-
-#footer a:hover {
-  color: white;
-} */
 
 .footer {
-  /* position: absolute; */
   bottom: 0;
   width: 100%;
   height: 60px;
@@ -157,6 +125,10 @@ padding-left: 50px;
   width: 45px;
 }
 
+a:hover {
+  text-decoration: unset;
+}
+
 .socialMediaBackground{
   height: 100px;
   background-color: darkred;
@@ -164,15 +136,14 @@ padding-left: 50px;
 }
 
 .icon{
-    font-size: 20px; 
-    
+  font-size: 20px;
 }
 
 .footer-copyright{
-    color: lightgrey;
-    font-size: 15px;
-    position: horizontal;
-    padding: rgb(240, 240, 204);
-    padding-top: 30px;
-    padding-bottom: 30px;
+  color: lightgrey;
+  font-size: 15px;
+  position: horizontal;
+  padding: rgb(240, 240, 204);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
